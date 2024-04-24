@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Principal"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/mujeres"
+            android:title="Información"
+            android:icon="@drawable/info_icono"/>
+
+        <item
+            android:id="@+id/niños"
+            android:title="Calendario"
+            android:icon="@drawable/calendario_icono"/>
+
+    </group>
+
+    <item
+        android:id="@+id/accesorios"
+        android:title="Catálogo de cursos">
+
+        <menu>
+            <group>
+
+                <item
+                    android:id="@+id/prendas"
+                    android:title="Liderazgo"/>
+
+                <item
+                    android:id="@+id/entretenimiento"
+                    android:title="Calidad y calidez en el servicio"/>
+
+                <item
+                    android:id="@+id/maletas"
+                    android:title="Protección civil"/>
+
+                <item
+                    android:id="@+id/vasos"
+                    android:title="Ventas"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
